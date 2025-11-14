@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Takunda Gowa — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      color: #60a5fa;
+    }
+
+    /* Navbar */
+    nav {
+      background: rgba(15, 23, 42, 0.95);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    }
+
+    .nav-container {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 20px;
+    }
+
+    .nav-container a.brand {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    .nav-links a {
+      font-weight: 500;
+      color: #e2e8f0;
+    }
+
+    .nav-links a:hover {
+      color: #38bdf8;
+    }
+
+    /* Hero Section */
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 100vh;
+      max-width: 1100px;
+      margin: auto;
+      padding: 120px 20px 60px;
+    }
+
+    .hero-left {
+      flex: 1 1 500px;
+    }
+
+    .hero-left h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .hero-left h1 .accent {
+      color: #38bdf8;
+    }
+
+    .hero-left p {
+      margin: 15px 0 25px;
+      color: #cbd5e1;
+      max-width: 500px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      border: 2px solid transparent;
+      transition: 0.3s;
+    }
+
+    .btn.primary {
+      background: #38bdf8;
+      color: #0f172a;
+    }
+
+    .btn.primary:hover {
+      background: transparent;
+      color: #38bdf8;
+      border-color: #38bdf8;
+    }
+
+    .btn.ghost {
+      background: transparent;
+      color: #38bdf8;
+      border: 2px solid #38bdf8;
+    }
+
+    .btn.ghost:hover {
+      background: #38bdf8;
+      color: #0f172a;
+    }
+
+    .hero-right {
+      flex: 1 1 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero-right img {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #38bdf8;
+      box-shadow: 0 0 20px rgba(56,189,248,0.4);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #334155;
+      color: #94a3b8;
+    }
+
+    footer a {
+      color: #38bdf8;
+    }
+
+    footer a:hover {
+      color: #60a5fa;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column-reverse;
+        text-align: center;
+      }
+
+      .hero-right {
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <a href="index.html" class="brand">Takunda Gowa</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header>
+    <div class="hero-left">
+      <h1>Hi, I’m <span class="accent">Takunda Gowa</span></h1>
+      <p>Software Developer & Designer — building thoughtful systems, creative visuals, and meaningful solutions.</p>
+
+      <div class="hero-buttons">
+        <a href="projects.html" class="btn primary">View My Work</a>
+        <a href="contact.html" class="btn ghost">Get in Touch</a>
+      </div>
+
+      <p>📍 I can work both onsite and remote • Open to attachments & freelance opportunities</p>
+    </div>
+
+    <div class="hero-right">
+      <img src="assets/images/myimage.jpeg" alt="Takunda Gowa">
+    </div>
+  </header>
+
+  <footer>
+    <p>© 2025 Takunda Gowa • 
+      <a href="https://www.linkedin.com/in/takunda-gowa-511369309/" target="_blank">LinkedIn</a> • 
+      <a href="https://github.com/taku-source" target="_blank">GitHub</a>
+    </p>
+  </footer>
+</body>
+</html>

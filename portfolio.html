@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio — Designs by Takunda</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <style>
+    body {
+      background-color: #0f1115;
+      color: #eaeaea;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav {
+      background-color: #14171c;
+      padding: 1rem 0;
+      border-bottom: 1px solid #1f232b;
+    }
+
+    .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      margin: auto;
+    }
+
+    .nav a {
+      color: #e2e2e2;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .nav a:hover {
+      color: #00bcd4;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+    }
+
+    main.container {
+      width: 85%;
+      margin: 4rem auto;
+      text-align: center;
+    }
+
+    h1 {
+      color: #00bcd4;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: #cfcfcf;
+      max-width: 700px;
+      margin: 0 auto 3rem;
+      line-height: 1.7;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .gallery a {
+      display: block;
+      overflow: hidden;
+      border-radius: 12px;
+      border: 1px solid #2a2f36;
+      transition: all 0.3s ease;
+      background-color: #161a21;
+    }
+
+    .gallery a:hover {
+      border-color: #00bcd4;
+      transform: translateY(-5px);
+      box-shadow: 0 0 20px rgba(0, 188, 212, 0.2);
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.4s ease;
+    }
+
+    .gallery a:hover img {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      background-color: #14171c;
+      color: #9ca3af;
+      border-top: 1px solid #1f232b;
+      margin-top: 3rem;
+    }
+
+    footer a {
+      color: #00bcd4;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">Takunda Gowa</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1>Design Portfolio</h1>
+    <p>Explore my poster and logo designs — each created with creativity, purpose, and modern aesthetics. Click any image to view it in full size.</p>
+
+    <div class="gallery">
+      <a href="assets/images/Blue and Orange Church Conference Flyer_20250707_105717_0000.png" target="_blank">
+        <img src="assets/images/Blue and Orange Church Conference Flyer_20250707_105717_0000.png" alt="School Poster Design">
+      </a>
+
+      <a href="assets/images/excel.png" target="_blank">
+        <img src="assets/images/excel.png" alt="Excel Learning Academy Logo">
+      </a>
+
+     <a href="assets/images/dynamic deleoper.png" target="_blank">
+        <img src="assets/images/dynamic deleoper.png" alt="Company Logo Design">
+      </a>
+    
+      <a href="assets/images/ggfmp.jpg" target="_blank">
+        <img src="assets/images/ggfmp.jpg" alt="Company Logo Design">
+      </a>
+
+       <a href="assets/images/excellogo.png" target="_blank">
+        <img src="assets/images/excellogo.png" alt="Company Logo Design">
+      </a>
+
+       <a href="assets/images/missione green.png" target="_blank">
+        <img src="assets/images/missione green.png" alt="Company Logo Design">
+      </a>
+
+      <a href="assets/images/life in one photo.png" target="_blank">
+        <img src="assets/images/life in one photo.png" alt="Creative Concept Poster">
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Takunda Gowa • 
+      <a href="https://www.linkedin.com/in/takunda-gowa-511369309/" target="_blank">LinkedIn</a> • 
+      <a href="https://github.com/taku-source" target="_blank">GitHub</a>
+    </p>
+  </footer>
+</body>
+</html>

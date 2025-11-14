@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Takunda Gowa</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <style>
+    body {
+      background-color: #0f1115;
+      color: #f4f4f4;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav {
+      background-color: #14171c;
+      padding: 1rem 0;
+      border-bottom: 1px solid #1f232b;
+    }
+
+    .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      margin: auto;
+    }
+
+    .nav a {
+      color: #e2e2e2;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .nav a:hover {
+      color: #00bcd4;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+    }
+
+    main.container {
+      width: 85%;
+      margin: 4rem auto;
+      line-height: 1.8;
+    }
+
+    h1, h2 {
+      color: #00bcd4;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: #cfcfcf;
+      font-size: 1rem;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+
+    .skill {
+      background-color: #1b1f25;
+      padding: 0.8rem 1rem;
+      border-radius: 8px;
+      text-align: center;
+      color: #fff;
+      border: 1px solid #2a2f36;
+      transition: background-color 0.3s;
+    }
+
+    .skill:hover {
+      background-color: #00bcd4;
+      color: #0f1115;
+    }
+
+    .btn.primary {
+      background-color: #00bcd4;
+      color: #0f1115;
+      padding: 0.7rem 1.4rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .btn.primary:hover {
+      background-color: #008c9e;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      background-color: #14171c;
+      color: #9ca3af;
+      border-top: 1px solid #1f232b;
+    }
+
+    footer a {
+      color: #00bcd4;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">Takunda Gowa</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container about-page">
+    <section>
+      <h1>About Me</h1>
+      <p>
+        Hello, I’m <strong>Takunda Gowa</strong> — a creative and analytical
+        <strong>Software Developer & Designer</strong>.
+        I specialize in crafting web applications with clean design and
+        smooth user experiences. My development stack includes
+        <strong>Python, Flask, JavaScript, HTML/CSS,</strong> and
+        <strong>MySQL</strong>.
+      </p>
+
+      <p>
+        Alongside coding, I’m passionate about <strong>graphic design</strong>
+        — from logos to digital posters — blending functionality with
+        appealing visuals. My approach combines technical problem-solving
+        with creativity to deliver practical and aesthetic digital solutions.
+      </p>
+
+      <p>
+        I’m currently pursuing my studies at <strong>TelOne Center for Learning</strong>,
+        where I continue to sharpen my skills in software engineering and innovation.
+        I’m open to internships, collaborations, and freelance opportunities.
+      </p>
+
+      <h2>Skills & Tools</h2>
+      <div class="skills-grid">
+        <div class="skill">Python</div>
+        <div class="skill">Flask</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">HTML & CSS</div>
+        <div class="skill">MySQL</div>
+        <div class="skill">C#</div>
+        <div class="skill">Graphic Design</div>
+        <div class="skill">Canva</div>
+      </div>
+
+      <h2>Download My Resume</h2>
+      <p><a class="btn primary" href="/assets/files/Takunda_Gowa_CV.docx" download>Download CV</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Takunda Gowa • 
+      <a href="https://www.linkedin.com/in/takunda-gowa-511369309/" target="_blank">LinkedIn</a> • 
+      <a href="https://github.com/taku-source" target="_blank">GitHub</a>
+    </p>
+  </footer>
+</body>
+</html>
